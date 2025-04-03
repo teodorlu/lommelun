@@ -82,9 +82,9 @@ const tegnSirkel = (event) => {
 
 }
 
-canvaset.onclick = tegnSirkel;
+canvaset.onmousedown = tegnSirkel;
 
 document.querySelector("#konfetti").onclick = konfettimaskin
 
-document.querySelector("#tegnSirkler").onclick = () => { canvaset.onclick = tegnSirkel}
-document.querySelector("#godMorgen").onclick = () => { canvaset.onclick = ønskGodMorgen}
+document.querySelector("#tegnSirkler").onmouse = () => { canvaset.onmousedown = tegnSirkel}
+document.querySelector("#godMorgen").onclick = () => { canvaset.onmousedown = ønskGodMorgen}
