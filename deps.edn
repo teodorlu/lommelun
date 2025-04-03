@@ -1,0 +1,6 @@
+{:paths ["src"]
+ :deps
+ {http-kit/http-kit {:mvn/version "2.8.0"}
+  ring/ring-core {:mvn/version "1.13.0"}}
+ :aliases
+ {:nextjournal/garden {:exec-fn lommelun/start!}}}
